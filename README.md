@@ -1,5 +1,10 @@
 ### Starting Up
-- npx create-expo-app ./
+- npm install -g expo-cli
+- npx create-expo-app app
+- cd app
+- npx expo start
+
+- 
 - npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 - "main": "expo-router/entry",
 
