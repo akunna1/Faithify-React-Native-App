@@ -1,8 +1,9 @@
 ### Starting Up
-- npm install -g expo-cli
-- npx create-expo-app app
-- cd app
-- npx expo start
+- node- v
+- npm install -g react-native-cli
+- npx react-native init app
+- npx react-native run-ios
+
 
 - 
 - npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
