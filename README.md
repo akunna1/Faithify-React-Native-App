@@ -1,13 +1,11 @@
 ### Starting Up
-- node- v
-- npm install -g react-native-cli
-- npx react-native init app
-- npx react-native run-ios
-
-
-- 
-- npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
-- "main": "expo-router/entry",
+- Node, Watchman, the React Native command line interface, Xcode and CocoaPods are required
+- ssudo gem install cocoapods (main terminal)
+- https://guides.cocoapods.org/using/getting-started.html#getting-started
+- open ~/.zshrc
+- Add this: export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+- brew install cocoapods
 
 
 ### Design Features
