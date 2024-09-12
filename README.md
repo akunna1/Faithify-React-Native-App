@@ -8,6 +8,12 @@ Using Expo CLI:
 - npm install -g expo-cli (main terminal)
 - expo init faithify
 - open project using VS code
+- cd faithify
+- npm run ios
+- optional: rm -rf node_modules
+npm install
+expo start -c
+- install typescript dependencies
 
 
 ### Design Features
