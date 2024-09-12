@@ -7,6 +7,7 @@
 Using Expo CLI:
 - npm install -g expo-cli (main terminal)
 - expo init faithify
+- open project using VS code
 
 
 ### Design Features
