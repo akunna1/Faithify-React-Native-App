@@ -1,14 +1,6 @@
 ### Setup
-- Install node.js
-- Install Android Studio
-- Get Xcode
-- Expo CLI or React Native CLI (to target native APIs)
-
-Using Expo CLI:
-- On VS code, cd ~/Desktop/faithify (open faithify folder)
-- npx create-expo-app@latest --template expo-template-blank-typescript .
-- npm install
-- npm run ios
+- https://docs.expo.dev/
+- npx create-expo-app@latest (main terminal)
 
 ### Design Features
 - Accent color: white 
