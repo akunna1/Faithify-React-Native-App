@@ -1,6 +1,6 @@
 ### Setup
 - https://docs.expo.dev/
-- npx create-expo-app@latest (main terminal)
+- npx create-expo-app@latest (main terminal, cd to folder)
 
 ### Useful video for setup
 - https://www.youtube.com/watch?v=y6DwGxe2E_k
