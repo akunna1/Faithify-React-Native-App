@@ -25,3 +25,8 @@
 - babel.config.js: Configuration file for Babel, used to transpile your code.
 - tsconfig.json: TypeScript configuration file that defines how TypeScript should compile your code.
 
+#### Installations
+- npm install @react-navigation/native @react-navigation/stack react-native-screens react-native-safe-area-context react-native-vector-icons react-native-elements
+- npm install @types/react @types/react-native @types/react-navigation
+
+
