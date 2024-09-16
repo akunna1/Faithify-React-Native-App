@@ -24,6 +24,7 @@
 - app.json: Configuration file for your app, including settings for Expo or React Native CLI
 - babel.config.js: Configuration file for Babel, used to transpile your code
 - tsconfig.json: TypeScript configuration file that defines how TypeScript should compile your code
+- app --> (tabs) --> index.tsx: entry point
 
 #### Installations
 - npm install @react-navigation/native @react-navigation/stack react-native-screens react-native-safe-area-context react-native-vector-icons react-native-elements
