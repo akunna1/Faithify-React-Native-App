@@ -1,12 +1,12 @@
-### Setup
+#### Setup
 - https://docs.expo.dev/
 - npx create-expo-app@latest (main terminal, cd to folder)
 - npx expo start --ios
 
-### Useful video for setup
+#### Useful video for setup
 - https://www.youtube.com/watch?v=y6DwGxe2E_k
 
-### Design Features
+#### Design Features
 - Accent color: white 
 - Color for buttons: #132235
 
