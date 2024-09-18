@@ -34,5 +34,6 @@
 - https://fontawesome.com/icons
 - https://evil-icons.io/
 - https://ionic.io/ionicons
+- https://www.textsymbols.ne
 
 
