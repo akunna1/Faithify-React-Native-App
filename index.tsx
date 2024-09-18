@@ -43,8 +43,8 @@ const styles = StyleSheet.create({
   headerText: { color: '#fff', fontWeight: 'bold', fontSize: 18 },
   contentContainer: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 15 },
   welcomeContainer: { flexDirection: 'row', alignItems: 'center', marginBottom: 20 },
-  welcomeText: { color: '#fff', fontSize: 25, fontWeight: '800', marginRight: 10 },
-  descriptionText: { color: '#fff', fontSize: 20, textAlign: 'center', marginBottom: 20 },
+  welcomeText: { color: '#fff', fontSize: 30, fontWeight: '800', marginRight: 10 },
+  descriptionText: { color: '#fff', fontSize: 20, textAlign: 'center', marginBottom: 20, fontWeight: '400' },
   button: {
     backgroundColor: '#132235',
     paddingVertical: 15,
@@ -55,5 +55,5 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     shadowOffset: { width: 2, height: 2 },
   },
-  buttonText: { color: '#fff', fontSize: 20, textAlign: 'center' },
+  buttonText: { color: '#fff', fontSize: 20, textAlign: 'center', fontWeight: '700' },
 });

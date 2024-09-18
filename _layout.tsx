@@ -49,9 +49,9 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="oc"
+        name="resilience"
         options={{
-          title: 'OC',
+          title: 'Resilience',
         }}
       />
       <Tabs.Screen
@@ -70,6 +70,12 @@ export default function TabLayout() {
         name="saver"
         options={{
           title: 'Saver',
+        }}
+      />
+      <Tabs.Screen
+        name="tracker"
+        options={{
+          title: 'Tracker',
         }}
       />
     </Tabs>

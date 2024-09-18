@@ -2,13 +2,12 @@ import React from 'react';
 import { Text, View, ImageBackground, StyleSheet, StatusBar, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router'; // Use useRouter for navigation
 
-export default function FaithScreen() {
+export default function HopeScreen() {
   const router = useRouter(); // Initialize router
 
   return (
     <View style={styles.container}>
-     <StatusBar barStyle="light-content" backgroundColor="transparent" translucent={true} />
-      
+    <StatusBar barStyle="light-content" backgroundColor="transparent" translucent={true} />
       <ImageBackground
         source={require('@/assets/images/bg.png')} 
         style={styles.background}
@@ -19,7 +18,6 @@ export default function FaithScreen() {
             <Text style={styles.headerText}>← Back</Text>
           </TouchableOpacity>
         </View>
-
         
       </ImageBackground>
     </View>

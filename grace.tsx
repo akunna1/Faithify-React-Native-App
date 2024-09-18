@@ -1,9 +1,8 @@
 import React from 'react';
 import { Text, View, ImageBackground, StyleSheet, StatusBar, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router'; // Use useRouter for navigation
-
-export default function FaithScreen() {
-  const router = useRouter(); // Initialize router
+export default function GraceScreen() {
+    const router = useRouter(); // Initialize router
 
   return (
     <View style={styles.container}>
@@ -20,7 +19,6 @@ export default function FaithScreen() {
           </TouchableOpacity>
         </View>
 
-        
       </ImageBackground>
     </View>
   );
