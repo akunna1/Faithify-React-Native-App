@@ -36,4 +36,16 @@
 - https://ionic.io/ionicons
 - https://www.textsymbols.ne
 
+#### Font Weight Values
+- 100: Thin (Hairline)
+- 200: Extra Light (Ultra Light)
+- 300: Light
+- 400: Normal (Regular)
+- 500: Medium
+- 600: Semi Bold (Demi Bold)
+- 700: Bold
+- 800: Extra Bold (Heavy)
+- 900: Black (Ultra Bold)
+
+
 
