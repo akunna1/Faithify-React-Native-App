@@ -73,8 +73,8 @@ const styles = StyleSheet.create({
   },
   mainSection: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
+    marginTop: 110,
   },
   title: {
     color: '#fff',
