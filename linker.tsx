@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#fff', // white
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: '800', // Extra bold
     textAlign: 'center', // Center-align text
   },
