@@ -3,6 +3,9 @@
 - npx create-expo-app@latest (main terminal, cd to folder)
 - npx expo start --ios
 
+#### Firebase Setup
+- npm install firebase
+
 #### Useful video for setup
 - https://www.youtube.com/watch?v=y6DwGxe2E_k
 
