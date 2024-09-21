@@ -1,6 +1,8 @@
 import React from 'react';
 import { Text, View, ImageBackground, StyleSheet, StatusBar, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router'; // Use useRouter for navigation
+import { db } from '@/firebase/config'; // importing db
+import { getFirestore, collection, getDocs } from 'firebase/firestore'; // Firebase Firestore
 
 export default function SaverScreen() {
     const router = useRouter(); // Initialize router

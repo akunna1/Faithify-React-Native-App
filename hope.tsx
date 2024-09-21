@@ -66,6 +66,12 @@ export default function HopeScreen() {
           <TouchableOpacity style={styles.button} onPress={shuffleVerse}>
             <Text style={styles.buttonText}>Shuffle Verses</Text>
           </TouchableOpacity>
+
+          {/* Save Verses Button */}
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Save Verse</Text>
+          </TouchableOpacity>
+          
         </View>
       </ImageBackground>
     </View>

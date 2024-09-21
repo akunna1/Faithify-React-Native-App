@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Text, View, ImageBackground, StyleSheet, StatusBar, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router'; // Use useRouter for navigation
+import { db } from '@/firebase/config'; // importing db
+import { getFirestore, collection, getDocs } from 'firebase/firestore'; // Firebase Firestore
 
 // Defining the structure of a verse
 type Verse = {
@@ -66,6 +68,12 @@ export default function FaithScreen() {
           <TouchableOpacity style={styles.button} onPress={shuffleVerse}>
             <Text style={styles.buttonText}>Shuffle Verses</Text>
           </TouchableOpacity>
+
+          {/* Save Verses Button */}
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Save Verse</Text>
+          </TouchableOpacity>
+
         </View>
       </ImageBackground>
     </View>
