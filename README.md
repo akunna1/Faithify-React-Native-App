@@ -45,7 +45,7 @@
 - 300: Light
 - 400: Normal (Regular)
 - 500: Medium
-- 600: Semi Bold (Demi Bold)
+- 600: Semi Bold (Semi Bold)
 - 700: Bold
 - 800: Extra Bold (Heavy)
 - 900: Black (Ultra Bold)
@@ -55,7 +55,8 @@
 - npm install firebase
 - register app as web app
 - copy code for config file, create config.tsx file and paste it there
-- firestore setup
+- firestore setup- addDoc, getFirestore, collection, getDocs, storage,  Timestamp, query, orderBy, onSnapshot
+- each collection has number, location, theme, verse
 
 
 
