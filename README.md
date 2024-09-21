@@ -55,7 +55,7 @@
 - npm install firebase
 - register app as web app
 - copy code for config file, create config.tsx file and paste it there
-- firestore setup- addDoc, getFirestore, collection, getDocs, storage,  Timestamp, query, orderBy, onSnapshot
+- firestore setup- addDoc, getFirestore, collection, getDocs, deleteDoc,  Timestamp, query, orderBy, onSnapshot
 - each collection has number, location, theme, verse
 
 
