@@ -50,5 +50,12 @@
 - 800: Extra Bold (Heavy)
 - 900: Black (Ultra Bold)
 
+#### Firebase Setup
+- configure firebase first (set up project in firebase)
+- npm install firebase
+- register app as web app
+- copy code for config file, create config.tsx file and paste it there
+- firestore setup
+
 
 
