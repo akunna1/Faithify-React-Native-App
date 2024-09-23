@@ -56,7 +56,7 @@
 - register app as web app
 - copy code for config file, create config.tsx file and paste it there
 - firestore setup- addDoc, getFirestore, collection, getDocs, deleteDoc,  Timestamp, query, orderBy, onSnapshot
-- each collection has number, location, theme, verse
+- each collection has number (unique), location, theme, verse
 
 
 
