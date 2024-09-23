@@ -58,5 +58,18 @@
 - firestore setup- addDoc, getFirestore, collection, getDocs, deleteDoc,  Timestamp, query, orderBy, onSnapshot
 - each collection has number (unique), location, theme, verse
 
+#### Firestore Functions
+- collection: retrieves a reference to a specific collection in Firestore, where documents are stored
+
+- addDoc: adds a new document to a specified collection, allowing one to store data in Firestore
+
+- Timestamp: a utility that represents a point in time, often used to record when a document was created or updated
+
+- query: creates a query object that can be used to filter documents from a collection based on specific criteria
+
+- where: adds a condition to a query, allowing one to filter documents based on specific field values
+
+- getDocs: retrieves the documents that match a given query, returning the results for further processing
+
 
 
