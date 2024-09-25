@@ -277,9 +277,9 @@
       },
       {
         "number": 47,
-        "location": "1 Corinthians 16:14",
-        "theme": "Love",
-        "verse": "Do everything in love."
+        "location": "Ezekiel 37:5",
+        "theme": "Faith",
+        "verse": "This is what the Sovereign Lord says to these bones: I will make breath enter you, and you will come to life."
       },
       {
         "number": 48,
@@ -793,9 +793,9 @@
       },
       {
         "number": 133,
-        "location": "Hebrews 11:32-34",
+        "location": "Hebrews 11:32-33",
         "theme": "Faith",
-        "verse": "And what more shall I say? I do not have time to tell about Gideon, Barak, Samson and Jephthah, about David and Samuel and the prophets, who through faith conquered kingdoms, administered justice, and gained what was promised; who shut the mouths of lions, quenched the fury of the flames, and escaped the edge of the sword; whose weakness was turned to strength; and who became powerful in battle and routed foreign armies."
+        "verse": "And what more shall I say? I do not have time to tell about Gideon, Barak, Samson and Jephthah, about David and Samuel and the prophets, who through faith conquered kingdoms, administered justice, and gained what was promised; who shut the mouths of lions,"
       },
       {
         "number": 134,
@@ -1594,12 +1594,6 @@
         "location": "1 Kings 8:56",
         "theme": "Hope",
         "verse": "Blessed be the Lord who has given rest to his people Israel, according to all that he promised. Not one word has failed of all his good promise, which he spoke by Moses his servant."
-      },
-      {
-        "number": 267,
-        "location": "Ezekiel 37:5",
-        "theme": "Faith",
-        "verse": "This is what the Sovereign Lord says to these bones: I will make breath enter you, and you will come to life."
       }
     ]
   
