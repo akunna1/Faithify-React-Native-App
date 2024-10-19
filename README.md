@@ -71,6 +71,8 @@
 
 - getDocs: retrieves the documents that match a given query, returning the results for further processing
 
+- deleteDoc: removes the current verse from a collection
+
 ##### Verses
 - Total: 326 verses
 - Grace- 58 verses, Love- 64 verses, Hope- 59 verses, Résilience- 67 verses, Faith-  79 verses
