@@ -19,6 +19,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="define"
+        options={{
+          title: 'Define',
+        }}
+      />
+      <Tabs.Screen
         name="themes"
         options={{
           title: 'Themes',
