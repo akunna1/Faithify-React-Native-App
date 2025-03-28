@@ -1,3 +1,5 @@
+#### Complete code not provided...
+
 #### Setup
 - https://docs.expo.dev/
 - npx create-expo-app@latest (main terminal, cd to folder)
