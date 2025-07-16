@@ -1,81 +1,130 @@
-#### Complete code not provided...
+# Faithify React Native App
 
-#### Setup
-- https://docs.expo.dev/
-- npx create-expo-app@latest (main terminal, cd to folder)
-- npx expo start --ios
+A React Native app built with Expo to provide users with categorized Bible verses on topics like Grace, Love, Hope, Resilience, and Faith.
 
-#### Firebase Setup
-- npm install firebase
+---
 
-#### Useful video for setup
-- https://www.youtube.com/watch?v=y6DwGxe2E_k
+## Setup
 
-#### Design Features
-- Accent color: white 
-- Color for buttons: #132235
+1. Follow Expo docs: https://docs.expo.dev/  
+2. Create app:  
+   ```bash
+   npx create-expo-app@latest
+   cd your-app-folder
+````
 
-#### Web Equivalents
-- Expo ~ Vite.js and React.js
-- Native Wind ~ Tailwind CSS
+3. Start app on iOS simulator:
 
-#### Structure
-- app Folder: Contains the main app structure. The index.tsx file here serves as the entry point, similar to index.js in a JavaScript setup. This file typically sets up the app's root component and navigation
--  app --> (tabs) --> index.tsx: entry point/ home screen
--  app --> (tabs) --> _layout.tsx: Configures tab navigation and screen options
-  
-- assets Folder: Stores static resources like images, fonts, and other media files
-- components Folder: Contains reusable React components used throughout the app e.g buttons, etc
-- constants Folder: Holds constant values and configuration settings used in the app
-- hooks Folder: Contains custom hooks for reusable logic
-- node_modules Folder: Contains all the installed npm packages
-- scripts Folder: May include custom scripts for tasks like building or deploying the app
-- app.json: Configuration file for your app, including settings for Expo or React Native CLI
-- babel.config.js: Configuration file for Babel, used to transpile your code
-- tsconfig.json: TypeScript configuration file that defines how TypeScript should compile your code
+   ```bash
+   npx expo start --ios
+   ```
 
+---
 
-#### Where to get icons
-- https://fontawesome.com/icons
-- https://evil-icons.io/
-- https://ionic.io/ionicons
-- https://www.textsymbols.ne
+## Firebase Setup
 
-#### Font Weight Values
-- 100: Thin (Hairline)
-- 200: Extra Light (Ultra Light)
-- 300: Light
-- 400: Normal (Regular)
-- 500: Medium
-- 600: Semi Bold (Semi Bold)
-- 700: Bold
-- 800: Extra Bold (Heavy)
-- 900: Black (Ultra Bold)
+1. Create a Firebase project and register your app as a web app
+2. Install Firebase SDK:
 
-#### Firebase Setup
-- configure firebase first (set up project in firebase)
-- npm install firebase
-- register app as web app
-- copy code for config file, create config.tsx file and paste it there
-- firestore setup- addDoc, getFirestore, collection, getDocs, deleteDoc,  Timestamp, query, orderBy, onSnapshot
-- each collection has number (unique), location, theme, verse
+   ```bash
+   npm install firebase
+   ```
+3. Create a `config.tsx` file with your Firebase config copied from Firebase console
+4. Use Firestore functions like `addDoc`, `getFirestore`, `collection`, `getDocs`, `deleteDoc`, `Timestamp`, `query`, `orderBy`, `onSnapshot` to manage verses collections
 
-#### Firestore Functions
-- collection: retrieves a reference to a specific collection in Firestore, where documents are stored
+---
 
-- addDoc: adds a new document to a specified collection, allowing one to store data in Firestore
+## Firestore Data Model
 
-- Timestamp: a utility that represents a point in time, often used to record when a document was created or updated
+* Each verse document includes fields:
 
-- query: creates a query object that can be used to filter documents from a collection based on specific criteria
+  * number (unique ID)
+  * location (Bible reference)
+  * theme (category such as Grace, Love, Hope, Resilience, Faith)
+  * verse (text content)
 
-- where: adds a condition to a query, allowing one to filter documents based on specific field values
+* Verse counts by theme:
 
-- getDocs: retrieves the documents that match a given query, returning the results for further processing
+  * Grace: 58
+  * Love: 64
+  * Hope: 59
+  * Résilience: 68
+  * Faith: 80
+  * **Total: 328 verses**
 
-- deleteDoc: removes the current verse from a collection
+---
 
-##### Verses
-- Total: 328 verses
-- Grace- 58 verses, Love- 64 verses, Hope- 59 verses, Résilience- 68 verses, Faith-  80 verses
+## Project Structure
 
+* `app/` — main app structure
+
+  * `index.tsx` — entry point, sets up root component/navigation
+  * `(tabs)/` — folder for tab navigation screens
+
+    * `index.tsx` — home screen
+    * `_layout.tsx` — tab navigation configuration
+
+* `assets/` — images, fonts, media
+
+* `components/` — reusable React components (e.g., buttons)
+
+* `constants/` — app-wide constants and config
+
+* `hooks/` — custom React hooks
+
+* `node_modules/` — installed npm packages
+
+* `scripts/` — custom build or deploy scripts
+
+* `app.json` — Expo/React Native app config
+
+* `babel.config.js` — Babel transpiler config
+
+* `tsconfig.json` — TypeScript compiler config
+
+---
+
+## Design
+
+* Accent color: **white**
+* Button color: `#132235`
+
+---
+
+## Web Equivalents
+
+* Expo \~ Vite.js + React.js
+* Native Wind \~ Tailwind CSS
+
+---
+
+## Icons Resources
+
+* [https://fontawesome.com/icons](https://fontawesome.com/icons)
+* [https://evil-icons.io/](https://evil-icons.io/)
+* [https://ionic.io/ionicons](https://ionic.io/ionicons)
+* [https://www.textsymbols.ne](https://www.textsymbols.ne)
+
+---
+
+## Font Weights Reference
+
+| Weight | Description               |
+| ------ | ------------------------- |
+| 100    | Thin (Hairline)           |
+| 200    | Extra Light (Ultra Light) |
+| 300    | Light                     |
+| 400    | Normal (Regular)          |
+| 500    | Medium                    |
+| 600    | Semi Bold                 |
+| 700    | Bold                      |
+| 800    | Extra Bold (Heavy)        |
+| 900    | Black (Ultra Bold)        |
+
+---
+
+## Useful Video for Setup
+
+[React Native Firebase Setup Tutorial](https://www.youtube.com/watch?v=y6DwGxe2E_k)
+
+```
