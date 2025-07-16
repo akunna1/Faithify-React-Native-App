@@ -29,10 +29,10 @@ Firestore Data Model 🗂️
 
 * Each verse document includes these fields:
 
-  * number (unique ID) #️⃣
-  * location (Bible reference) 📜
-  * theme (category like Grace, Love, Hope, Resilience, Faith) 💖
-  * verse (the verse text) ✍️
+  * number (unique ID)
+  * location (Bible reference)
+  * theme (category like Grace, Love, Hope, Resilience, Faith)
+  * verse (the verse text)
 
 * Verse counts by theme:
   Grace: 58
@@ -54,23 +54,23 @@ Project Structure 🏗️
     * index.tsx is the home screen
     * \_layout.tsx configures tab navigation
 
-* assets/ folder holds images, fonts, and media 🎨
+* assets/ folder holds images, fonts, and media
 
-* components/ folder has reusable components like buttons 🔘
+* components/ folder has reusable components like buttons
 
-* constants/ folder stores app-wide constants 📌
+* constants/ folder stores app-wide constants
 
-* hooks/ folder contains custom React hooks 🎣
+* hooks/ folder contains custom React hooks
 
 * node\_modules/ has installed npm packages 📦
 
-* scripts/ for custom build or deploy scripts 🛠️
+* scripts/ for custom build or deploy scripts
 
-* app.json is the Expo app configuration file ⚙️
+* app.json is the Expo app configuration file
 
-* babel.config.js configures Babel compiler 🔄
+* babel.config.js configures Babel compiler
 
-* tsconfig.json configures TypeScript compiler 📐
+* tsconfig.json configures TypeScript compiler
 
 ---
 
