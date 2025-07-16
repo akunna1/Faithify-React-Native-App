@@ -1,4 +1,4 @@
-Faithify React Native App 📱
+# Faithify React Native App 📱
 
 A React Native app built with Expo to provide users with categorized Bible verses on topics like Grace, Love, Hope, Resilience, and Faith. 🙏📖
 
